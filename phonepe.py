@@ -727,7 +727,7 @@ st.markdown("""
             color: #7432FF;
         }
         .stApp {
-            background-image: url('https://tech.phonepe.com/static/e5a75fa1f4f46534be030fe0b507eb1d/6c305/Rollup_-Supercharging-Time-Series-Database-Queries.png');
+            background-image: url('https://www.codesign.in/codesign/wp-content/uploads/2021/03/Codesign-PhonePe-Beam-Construction.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -735,14 +735,16 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
-st.image(r"D:\Phonepe\phonepe6.png", width=300)
-st.markdown(
-    """
-    <h1 style="text-align: center;color: white;font-family: 'Roboto', sans-serif;text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)">PHONEPE PULSE DATA VISUALIZATION AND EXPLORATION</h1>
-    """,
-    unsafe_allow_html=True
-)
+col1,col2= st.columns([3,9])
+with col1:
+    st.image(r"https://cdn.freelogovectors.net/wp-content/uploads/2023/11/phonepelogo-freelogovectors.net_.png", width=300)
+with col2:
+    st.markdown(
+        """
+        <h1 style="text-align: center;color: white;font-family: 'Roboto', sans-serif;text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4)">PHONEPE PULSE DATA VISUALIZATION AND EXPLORATION</h1>
+        """,
+        unsafe_allow_html=True
+    )
 
 main_tab1, main_tab2, main_tab3 = st.tabs(["***HOME***","***EXPLORE DATA***","***TOP CHARTS***"])
 
@@ -750,14 +752,16 @@ with main_tab1:
     col1,col2= st.columns(2)
 
     with col1:
-        st.header("PHONEPE")
-        st.subheader("INDIA'S BEST TRANSACTION APP")
-        st.markdown(" Phonepe is an Indian digital payments and financial technology company")
-        st.write("****FEATURES****")
-        st.write("   **-> Credit & Debit card linking**")
-        st.write("   **-> CBank Balance check**")
-        st.write("   **-> CMoney Storage**")
-        st.write("   **-> CPIN Authorization**")
+        st.markdown('<h1 style="color:#FFFFFF">PHONEPE</h1>', unsafe_allow_html=True)
+        st.markdown('<h2 style="color:#FFFFFF">INDIA\'S BEST TRANSACTION APP</h2>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">PhonePe is an Indian digital payments and financial technology company</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 24px;">FEATURES</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> Credit & Debit Card Linking</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> Bank Balance Check</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> Money Storage</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> PIN Authorization</p>', unsafe_allow_html=True)
+
+
         
         image=Image.open(r'D:\Phonepe\phonepe1.png')
         st.image(image,width=200)
@@ -777,15 +781,16 @@ with main_tab1:
                         
     with col4:
 
-        st.write("**-> Easy Transactions**")
-        st.write("**-> One App For All Your Payments**")
-        st.write("**-> Your Bank Account Is All You Need**")
-        st.write("**-> Multiple Payment Modes**")
-        st.write("**-> PhonePe Merchants**")
-        st.write("**-> Multiple Ways To Pay**")
-        st.write("**-  1.Direct Transfer & More**")
-        st.write("**-  2.QR Code**")
-        st.write("**-> Earn Great Rewards**")
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> Easy Transactions</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> One App For All Your Payments</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> Your Bank Account Is All You Need</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> Multiple Payment Modes</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> PhonePe Merchants</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> Multiple Ways To Pay</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-  1. Direct Transfer & More</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-  2. QR Code</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#ffffff; font-weight: bold; font-size: 18px;">-> Earn Great Rewards</p>', unsafe_allow_html=True)
+
         image=Image.open(r'D:\Phonepe\phonepe2.webp')
         st.image(image,width=200)
 
@@ -802,9 +807,11 @@ with main_tab1:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.write("**-> No Wallet Top-Up Required**")
-        st.write("**-> Pay Directly From Any Bank To Any Bank A/C**")
-        st.write("**-> Instantly & Free**")
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> No Wallet Top-Up Required</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> Pay Directly From Any Bank To Any Bank A/C</p>', unsafe_allow_html=True)
+        st.markdown('<p style="color:#FFFFFF; font-weight: bold; font-size: 18px;">-> Instantly & Free</p>', unsafe_allow_html=True)
+
+
 
         image=Image.open(r'D:\Phonepe\phonepe3.webp')
         st.image(image,width=200)
